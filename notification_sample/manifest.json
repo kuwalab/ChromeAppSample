@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "notification sample",
+  "description": "notification",
+  "version": "0.1",
+  "permissions": ["notifications"],
+  "app": {
+    "background": {
+      "scripts": ["src/js/background.js"]
+    }
+  },
+  "icons": {
+    "16": "src/image/calculator-16.png",
+    "128": "src/image/calculator-128.png"
+  }
+}
